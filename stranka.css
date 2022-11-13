@@ -1,0 +1,114 @@
+html {
+  scroll-behavior: smooth;
+}
+header{
+
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+
+}
+.obrastek{
+  width: 230px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.obrastek2{
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text1{
+  margin-top: 110px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 18px;
+  font-family: Calibri Light ;
+}
+.text{
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 18px;
+  font-family: Calibri Light ;
+}
+.odkazy{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.odkaziky{
+  float: left;
+  width: 20%;
+  text-align: center;
+  border-right: 1px solid grey;
+  height: 45px;
+  font-family: Calibri Light ;
+  font-size: 20px;
+  padding-top: 12px;
+}
+.odkazicek{
+  text-align: center;
+  font-family: Calibri Light ;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black
+}
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  font-family: Calibri Light ;
+}
+th{
+  padding: 8px;
+  text-align: left;
+
+  font-size: 18px;
+  font-family: Calibri Light ;
+}
+table{
+  width: 93%;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.vlastnosti{
+  text-align: right;
+}
+.vlastnosti1{
+  text-align: right;
+  font-size: 15px;
+}
+.containter{
+
+}
+.slide-wrapper{
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+.obrazok{
+  width: 90%;
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+.slider{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+video{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
